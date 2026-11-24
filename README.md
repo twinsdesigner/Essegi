@@ -4,7 +4,7 @@ Sito web Essegi Parrucchieria gestito da Twins Designer.
 
 ## Gestione del sito
 
-Il pulsante di anteprima modifica le immagini solo sul dispositivo in uso. Per aggiornare le immagini pubbliche, lo staff accede a GitHub con un account autorizzato sul repository. Il modulo appuntamenti prepara il testo nel browser. Il cliente sceglie quando aprire WhatsApp e quando inviarlo. Nel progetto non ci sono un database prenotazioni, funzioni server o invii promozionali.
+Per aggiornare le immagini pubbliche, lo staff accede a GitHub con un account autorizzato sul repository. Il modulo appuntamenti prepara il testo nel browser. Il cliente sceglie quando aprire WhatsApp e quando inviarlo. Nel progetto non ci sono un database prenotazioni, funzioni server o invii promozionali.
 
 Per controllare i costi, il proprietario del team Netlify verifica piano, consumi, destinatari degli avvisi e stato della ricarica automatica. Nei piani a crediti, disattivare la ricarica può comportare la sospensione dei progetti del team all'esaurimento del saldo. Queste impostazioni si gestiscono nel pannello del team.
 

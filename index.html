@@ -448,53 +448,9 @@ p{line-height:1.85;color:var(--muted);font-size:.98rem}
 @media(max-width:600px){#galleryGrid{grid-template-columns:1fr;gap:20px}#galleryGrid .gallery-card img{height:430px}#galleryGrid.single-photo .gallery-card img{height:480px}.salon-client-image .salon-shot-secondary{width:100%!important}}
 
 
-/* Area Staff: accesso discreto e gestione foto. */
-.staff-access-row{background:var(--wine-dark);padding:0 0 18px;color:#d1adb7}
-.staff-access-row .wrap{display:flex;justify-content:flex-end}
-.staff-link{appearance:none;border:0;background:transparent;color:#d1adb7;padding:5px 0;font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.72;transition:opacity .2s,color .2s}
-.staff-link:hover,.staff-link:focus-visible{opacity:1;color:#fff}
-.staff-modal{position:fixed;inset:0;z-index:160;display:none;align-items:center;justify-content:center;padding:24px;background:#1d0b13e8;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-.staff-modal.open{display:flex}
-.staff-dialog{position:relative;width:min(100%,470px);max-height:min(92dvh,900px);overflow:auto;background:#fff;color:var(--ink);box-shadow:0 28px 90px #0006;border:1px solid #ead8d8}
-.staff-manager-dialog{width:min(100%,1120px)}
-.staff-dialog-head{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:28px 30px 22px;border-bottom:1px solid var(--border);background:#fff}
-.staff-dialog-head h2{font-size:2.25rem;color:var(--wine);margin:4px 0 0;line-height:1}
-.staff-dialog-head p{font-size:.8rem;line-height:1.55;margin:10px 0 0;max-width:700px}
-.staff-close{border:1px solid var(--border);background:#fff;color:var(--wine);width:42px;height:42px;font-size:24px;line-height:1;flex:0 0 auto}
-.staff-close:hover{background:#fbf3f3}
-.staff-login-body{padding:30px}
-.staff-login-body label{display:block;margin-bottom:8px;text-transform:uppercase;letter-spacing:.09em;font-size:.66rem;font-weight:700;color:#5c424c}
-.staff-login-row{display:grid;grid-template-columns:1fr auto;gap:9px}
-.staff-login-row input{min-width:0;width:100%;padding:14px 15px;border:1px solid #e5d9da;background:#fcf9f8;color:var(--ink);outline:none}
-.staff-login-row input:focus{border-color:var(--wine);background:#fff}
-.staff-login-row button,.staff-photo-card button,.staff-manager-actions button{border:1px solid var(--wine);background:var(--wine);color:#fff;padding:12px 16px;font-size:.69rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700}
-.staff-login-row button:hover,.staff-photo-card button:hover,.staff-manager-actions button:hover{background:var(--wine-dark)}
-.staff-login-error{min-height:20px;margin:9px 0 0;color:#b51c35;font-size:.78rem}
-.staff-manager-body{padding:24px 30px 30px}
-.staff-manager-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:22px}
-.staff-manager-actions .staff-secondary{background:#fff;color:var(--wine);border-color:#d9b8be}
-.staff-manager-actions .staff-secondary:hover{background:#fbf3f3}
-.staff-manager-note{margin:0 0 22px;font-size:.78rem;line-height:1.6;background:#faf4f4;border-left:2px solid var(--red);padding:12px 14px}
-.staff-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.staff-photo-card{border:1px solid var(--border);background:#fbf8f6;overflow:hidden;min-width:0}
-.staff-photo-preview{height:190px;background:#e9dfdc;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.staff-photo-preview img{width:100%;height:100%;object-fit:cover}
-.staff-photo-info{padding:15px}
-.staff-photo-info strong{display:block;color:var(--wine);font-family:'Cormorant Garamond',serif;font-size:1.25rem;line-height:1.15;font-weight:600;margin-bottom:12px}
-.staff-photo-buttons{display:flex;gap:7px;flex-wrap:wrap}
-.staff-photo-card button{padding:9px 10px;font-size:.59rem}
-.staff-photo-card button.staff-reset{background:#fff;color:var(--wine);border-color:#d9b8be}
-.staff-photo-card button.staff-reset:hover{background:#f8ecee}
-.staff-status{font-size:.75rem;color:#69555c;margin-left:auto;min-height:18px}
-@media(max-width:820px){.staff-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.staff-manager-dialog{max-height:94dvh}.staff-dialog-head,.staff-manager-body{padding-left:20px;padding-right:20px}}
-@media(max-width:560px){.staff-modal{padding:10px}.staff-photo-grid{grid-template-columns:1fr}.staff-login-row{grid-template-columns:1fr}.staff-login-row button{min-height:48px}.staff-photo-preview{height:220px}.staff-manager-actions>*{width:100%}.staff-status{margin-left:0;width:100%}}
-
 .skip-link{position:fixed;top:.5rem;left:.5rem;transform:translateY(-200%);z-index:10000;background:white;color:#551524;padding:12px}
 .skip-link:focus{transform:none}
 :focus-visible{outline:3px solid #161616;outline-offset:3px;box-shadow:0 0 0 6px white}
-html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{animation-play-state:paused!important}
-.motion-toggle{position:absolute;right:14px;top:14px;z-index:6;border:0;border-radius:20px;background:#fff;color:#591626;padding:9px 14px}
-.staff-access-row .wrap{gap:20px}
 </style>
 </head>
 <body>
@@ -527,7 +483,7 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
 <div aria-hidden="true" class="hero-slide" data-n="1"><img alt="Capelli mossi castano miele" data-linked-src="assets/essegi-photo-03.jpg" id="asset3" src="assets/essegi-photo-04.jpg"/></div>
 <div aria-hidden="true" class="hero-slide" data-n="2"><img alt="Acconciatura sposa raffinata" id="asset2" src="assets/essegi-photo-05.jpg"/></div>
 <div aria-hidden="true" class="hero-slide" data-n="3"><img alt="Caschetto biondo liscio" id="asset7" src="assets/essegi-photo-06.jpg"/></div>
-<button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Pausa animazioni</button><div class="hero-photo-label"><small>Il look parla di te</small><span id="heroCaption">Colore &amp; luce</span></div>
+<div class="hero-photo-label"><small>Il look parla di te</small><span id="heroCaption">Colore &amp; luce</span></div>
 <div class="hero-nav"><button aria-label="Foto precedente" id="heroPrev" type="button">‹</button><button aria-label="Foto successiva" id="heroNext" type="button">›</button></div>
 <div aria-hidden="true" class="hero-progress"><span id="heroProgressBar"></span></div></div>
 <div class="hero-float"><img alt="Acconciatura elegante con accessorio luminoso" id="asset1" src="assets/essegi-photo-07.jpg"/></div>
@@ -614,19 +570,6 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
 <section class="privacy-section" id="privacy"><div class="wrap"><details class="privacy-block"><summary>Nota sul trattamento dei dati personali</summary><p>Le informazioni inserite nel modulo non vengono salvate da questo sito: vengono utilizzate per comporre il messaggio di richiesta da inviare tramite WhatsApp. Aprendo WhatsApp, il testo viene trasferito al servizio. Il salone lo riceve quando premi Invia. Questo modulo non iscrive a liste promozionali. Per informazioni sui tuoi dati o per chiederne la cancellazione, contatta Essegi Parrucchieria di Starnini Sara al <a href="tel:+393662318951">366 231 8951</a>. La richiesta viene gestita solo dopo l’invio effettivo del messaggio.</p></details></div></section>
 </main>
 <footer class="site-footer"><div class="wrap"><div class="footer-content"><div><a class="footer-logo" href="#home"><img alt="Logo Essegi Parrucchieria" data-logo=""/><span class="brand-name">Essegi<small>PARRUCCHIERIA</small></span></a><p class="footer-description">Dal 2014 a Villa Pitignano: taglio, colore, styling, sposa e trattamenti professionali per cute e capelli.</p></div><div><div class="footer-heading">Esplora</div><div class="footer-links"><a href="#salone">Il salone</a><a href="#servizi">I servizi</a><a href="#sposa">Servizio sposa</a><a href="#prodotti">Prodotti</a><a href="#galleria">La galleria</a><a href="#prenota">Appuntamenti</a></div></div><div><div class="footer-heading">Ti aspettiamo</div><div class="footer-links"><a href="tel:+393662318951">+39 366 231 8951</a><a href="https://maps.app.goo.gl/yV9a2MEp4phPrhcD8" rel="noopener noreferrer" target="_blank">Villa Pitignano, Perugia ↗</a><a href="https://wa.me/393662318951" rel="noopener noreferrer" target="_blank">WhatsApp ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="year"></span> Essegi Parrucchieria</span><span>Strada Ponte Felcino – Ponte Pattoli, 24 · Villa Pitignano (PG)</span></div></div></footer>
-<div class="staff-access-row"><div class="wrap"><button class="staff-link" id="staffOpen" type="button">Anteprima foto locale</button><a class="staff-link" href="https://github.com/twinsdesigner/Essegi/tree/main/assets" rel="noopener noreferrer">Staff · Gestisci foto su GitHub</a></div></div>
-<div aria-hidden="true" aria-labelledby="staffManagerTitle" aria-modal="true" class="staff-modal" id="staffManagerModal" role="dialog">
- <div class="staff-dialog staff-manager-dialog">
-  <div class="staff-dialog-head"><div><span class="eyebrow">Anteprima sul dispositivo</span><h2 id="staffManagerTitle">Gestione foto</h2><p>Sostituisci esclusivamente le immagini del sito. Testi, impaginazione e funzioni restano invariati.</p></div><button aria-label="Chiudi" class="staff-close" data-staff-close="manager" type="button">×</button></div>
-  <div class="staff-manager-body">
-   <div class="staff-manager-actions"><button id="staffExport" type="button">Esporta HTML aggiornato</button><button class="staff-secondary" id="staffLogout" type="button">Chiudi anteprima</button><span aria-live="polite" class="staff-status" id="staffStatus"></span></div>
-   <p class="staff-manager-note">Le sostituzioni vengono ricordate su questo browser. Per rendere le nuove foto permanenti anche per gli altri visitatori, esporta il file HTML aggiornato e pubblicalo al posto di quello precedente.</p>
-   <div class="staff-photo-grid" id="staffPhotoGrid"></div>
-  </div>
- </div>
-</div>
-<input accept="image/*" hidden id="staffFileInput" type="file"/>
-
 <a aria-label="Contatta Essegi su WhatsApp" class="fab" href="https://wa.me/393662318951" rel="noopener noreferrer" target="_blank"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.65" viewbox="0 0 24 24"><path d="M20.3 11.7A8.35 8.35 0 0 1 8.1 19l-4.6 1.2L4.8 16A8.4 8.4 0 1 1 20.3 11.7Z"></path><path d="M8.8 8.2c.3-.4.5-.5.8-.5.2 0 .4.1.5.4l.9 1.7c.1.3 0 .5-.3.8l-.5.6c.5 1 1.4 1.8 2.5 2.3l.7-.7c.2-.2.5-.2.8-.1l1.7.8c.3.2.5.4.4.7-.1.8-.8 1.5-1.6 1.6-2 .2-4.6-1.4-6-3.4-1.2-1.7-1.3-3.2.1-4.2Z"></path></svg><span>Scrivici su WhatsApp</span></a>
 <div aria-hidden="true" aria-label="Fotografia ingrandita" aria-modal="true" class="lightbox" id="lightbox" role="dialog"><div class="lightbox-inner"><button aria-label="Chiudi la fotografia" class="lightbox-close" id="lightboxClose" type="button">×</button><div class="lightbox-image"><img alt="" id="lightboxImg"/></div><div class="lightbox-meta"><div><strong id="lightboxTitle"></strong><span id="lightboxCat"></span></div><div class="lightbox-controls"><button aria-label="Foto precedente" id="lightboxPrev" type="button">‹</button><button aria-label="Foto successiva" id="lightboxNext" type="button">›</button></div></div></div></div>
 <script>
@@ -635,7 +578,6 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
  const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
  document.querySelectorAll('a[href="#privacy"]').forEach(link=>link.addEventListener('click',()=>{document.querySelector('#privacy details').open=true;}));
  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- const offlineSource=location.protocol==='file:'?'<!doctype html>\n'+document.documentElement.outerHTML:null;
  const photos={1:$('#asset1').src,2:$('#asset2').src,3:($('#asset3').dataset.linkedSrc||$('#asset3').src),4:$('#asset4').src,7:$('#asset7').src};
  $$('[data-photo]').forEach(img=>{img.src=photos[img.dataset.photo];});
  $('[data-logo]').src=$('.brand-mark').src;
@@ -652,16 +594,10 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
  addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(updateScroll);ticking=true;}},{passive:true});updateScroll();
  // Hero: arrow buttons, swipe, and pause when out of focus / hidden.
  const slides=$$('.hero-slide'), headings=['Colore & luce','Tagli con personalità','Sposa & dettagli','Forme raffinate'];
- let slideIndex=0,slideTimer,motionPaused=reduceMotion;
- function updateMotion(){
-  document.documentElement.classList.toggle('motion-paused',motionPaused);
-  $('#motionToggle').setAttribute('aria-pressed',String(motionPaused));
-  startSlider();
- }
- $('#motionToggle').addEventListener('click',()=>{motionPaused=!motionPaused;updateMotion();});
+ let slideIndex=0,slideTimer;
  function showSlide(idx){slideIndex=(idx+slides.length)%slides.length;slides.forEach((slide,i)=>{const active=i===slideIndex;slide.classList.toggle('active',active);slide.setAttribute('aria-hidden',String(!active));});$('#heroCaption').textContent=headings[slideIndex];$('#slideCount').textContent=`${String(slideIndex+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;const bar=$('#heroProgressBar');if(bar&&!reduceMotion){bar.style.animation='none';void bar.offsetWidth;bar.style.animation='heroProgress 3.8s linear';}}
  function stopSlider(){clearInterval(slideTimer);slideTimer=null;}
- function startSlider(){stopSlider();if(!motionPaused&&!document.hidden)slideTimer=setInterval(()=>showSlide(slideIndex+1),3800);}
+ function startSlider(){stopSlider();if(!reduceMotion&&!document.hidden)slideTimer=setInterval(()=>showSlide(slideIndex+1),3800);}
  $('#heroPrev').addEventListener('click',()=>{showSlide(slideIndex-1);startSlider();});
  $('#heroNext').addEventListener('click',()=>{showSlide(slideIndex+1);startSlider();});
  $('#heroSlider').addEventListener('mouseenter',stopSlider);$('#heroSlider').addEventListener('mouseleave',startSlider);
@@ -670,7 +606,7 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
  let startTouch=0;
  $('#heroSlider').addEventListener('touchstart',e=>{startTouch=e.changedTouches[0].screenX;},{passive:true});
  $('#heroSlider').addEventListener('touchend',e=>{const diff=e.changedTouches[0].screenX-startTouch;if(Math.abs(diff)>45){showSlide(slideIndex+(diff>0?-1:1));startSlider();}},{passive:true});
- updateMotion();
+ startSlider();
  // Photo gallery with actual salon-work photo descriptions, filters & accessible viewer.
  const galleryItems=[
   {title:'Biondo luminoso',cat:'Taglio & colore',img:$('#clientLookBlonde').src},
@@ -763,47 +699,6 @@ html.motion-paused .hero-ticker-track,html.motion-paused .hero-progress span{ani
  $('#editRequest').addEventListener('click',()=>{summary.classList.remove('show');form.hidden=false;service.focus();});
  // Light, non-obstructive entrance motion; visible by default if IntersectionObserver unavailable.
  const reveal=$$('[data-reveal]');if(!reduceMotion&&'IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>entries.forEach(item=>{if(item.isIntersecting){item.target.classList.add('is-visible');obs.unobserve(item.target);}}),{threshold:.08,rootMargin:'0px 0px 35px 0px'});reveal.forEach(el=>obs.observe(el));}else reveal.forEach(el=>el.classList.add('is-visible'));
-
- // Staff photo manager. It deliberately touches image sources only.
- const staffOpen=$('#staffOpen'),staffManagerModal=$('#staffManagerModal'),staffPhotoGrid=$('#staffPhotoGrid'),staffFileInput=$('#staffFileInput'),staffStatus=$('#staffStatus');
- const staffSourceImages=$$('img').filter(img=>img.getAttribute('src')&&!img.matches('.brand-mark,[data-logo],[data-photo],#lightboxImg,#galleryGrid img'));
- const staffEntries=staffSourceImages.map((img,i)=>({key:'photo-'+String(i+1).padStart(2,'0'),img,label:img.alt||('Foto '+(i+1)),original:img.src,current:img.src}));
- let staffPendingKey='';
- function setStaffModal(open){
-  staffManagerModal.classList.toggle('open',open);
-  staffManagerModal.setAttribute('aria-hidden',String(!open));
-  document.body.classList.toggle('modal-open',open);
-  if(open) $('#staffExport').focus(); else staffOpen.focus();
- }
- staffOpen.addEventListener('click',()=>{renderStaffGrid();setStaffModal(true);});
- $('[data-staff-close="manager"]').addEventListener('click',()=>setStaffModal(false));
- $('#staffLogout').addEventListener('click',()=>setStaffModal(false));
- staffManagerModal.addEventListener('click',e=>{if(e.target===staffManagerModal)setStaffModal(false);});
- staffManagerModal.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){setStaffModal(false);return;}
-  if(e.key!=='Tab')return;
-  const buttons=$$('button:not(:disabled)',staffManagerModal);
-  const first=buttons[0],last=buttons[buttons.length-1];
-  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
-  if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
- });
- function openStaffDb(){return new Promise((resolve,reject)=>{if(!('indexedDB'in window)){reject(new Error('IndexedDB non disponibile'));return;}const req=indexedDB.open('essegi-staff-photo-db',1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('photos'))req.result.createObjectStore('photos',{keyPath:'key'});};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
- async function staffDbPut(record){const db=await openStaffDb();return new Promise((resolve,reject)=>{const tx=db.transaction('photos','readwrite');tx.objectStore('photos').put(record);tx.oncomplete=()=>{db.close();resolve();};tx.onerror=()=>{db.close();reject(tx.error);};});}
- async function staffDbDelete(key){const db=await openStaffDb();return new Promise((resolve,reject)=>{const tx=db.transaction('photos','readwrite');tx.objectStore('photos').delete(key);tx.oncomplete=()=>{db.close();resolve();};tx.onerror=()=>{db.close();reject(tx.error);};});}
- async function staffDbAll(){const db=await openStaffDb();return new Promise((resolve,reject)=>{const tx=db.transaction('photos','readonly'),req=tx.objectStore('photos').getAll();req.onsuccess=()=>resolve(req.result||[]);req.onerror=()=>reject(req.error);tx.oncomplete=()=>db.close();});}
- function syncStaffPhoto(entry,newSrc){const oldSrc=entry.current;entry.current=newSrc;entry.img.src=newSrc;const match=entry.img.id&&entry.img.id.match(/^asset(\d+)$/);if(match){const n=match[1];photos[n]=newSrc;$$('[data-photo="'+n+'"]').forEach(linked=>linked.src=newSrc);}galleryItems.forEach(item=>{if(item.img===oldSrc)item.img=newSrc;});drawGallery();}
- function renderStaffGrid(){staffPhotoGrid.innerHTML='';staffEntries.forEach(entry=>{const card=document.createElement('article');card.className='staff-photo-card';const preview=document.createElement('div');preview.className='staff-photo-preview';const image=document.createElement('img');image.src=entry.current;image.alt='';preview.append(image);const info=document.createElement('div');info.className='staff-photo-info';const title=document.createElement('strong');title.textContent=entry.label;const buttons=document.createElement('div');buttons.className='staff-photo-buttons';const replace=document.createElement('button');replace.type='button';replace.textContent='Sostituisci';replace.addEventListener('click',()=>{staffPendingKey=entry.key;staffFileInput.value='';staffFileInput.click();});const reset=document.createElement('button');reset.type='button';reset.className='staff-reset';reset.textContent='Ripristina';reset.disabled=entry.current===entry.original;reset.addEventListener('click',async()=>{syncStaffPhoto(entry,entry.original);try{await staffDbDelete(entry.key);staffStatus.textContent='Foto ripristinata.';}catch(err){staffStatus.textContent='Foto ripristinata, ma il browser non ha salvato la modifica.';}renderStaffGrid();});buttons.append(replace,reset);info.append(title,buttons);card.append(preview,info);staffPhotoGrid.append(card);});}
- staffFileInput.addEventListener('change',()=>{const file=staffFileInput.files&&staffFileInput.files[0],entry=staffEntries.find(x=>x.key===staffPendingKey);if(!file||!entry)return;if(!file.type.startsWith('image/')){staffStatus.textContent='Seleziona un file immagine.';return;}const reader=new FileReader();reader.onload=async()=>{const data=String(reader.result||'');if(!data.startsWith('data:image/')){staffStatus.textContent='Immagine non valida.';return;}syncStaffPhoto(entry,data);try{await staffDbPut({key:entry.key,data,name:file.name,updated:Date.now()});staffStatus.textContent='Foto aggiornata e salvata su questo browser.';}catch(err){staffStatus.textContent='Foto aggiornata per questa sessione; il browser non consente il salvataggio locale.';}renderStaffGrid();};reader.readAsDataURL(file);});
- async function restoreStaffPhotos(){try{const saved=await staffDbAll();saved.forEach(record=>{const entry=staffEntries.find(x=>x.key===record.key);if(entry&&typeof record.data==='string'&&record.data.startsWith('data:image/'))syncStaffPhoto(entry,record.data);});}catch(err){}if(staffManagerModal.classList.contains('open'))renderStaffGrid();}
- $('#staffExport').addEventListener('click',async()=>{staffStatus.textContent='Preparazione del file…';try{const pageURL=new URL(location.href);pageURL.hash='';pageURL.search='';let source=offlineSource;
-if(!source){const response=await fetch(pageURL);if(!response.ok)throw new Error('Pagina non disponibile');source=await response.text();}
-{for(const entry of staffEntries){if(entry.current!==entry.original){const from='src="'+entry.original+'"',to='src="'+entry.current+'"';source=source.split(from).join(to);const relPath=new URL(entry.original,location.href).pathname.replace(/^\//,'');source=source.split('src="'+relPath+'"').join(to);}}}
-const fontLink=document.querySelector('link[rel="stylesheet"]');
-if(fontLink){const fonts=await fetch(fontLink.href);if(!fonts.ok)throw new Error('Font non disponibili');const css=await fonts.text();source=source.replace(/<link[^>]+href="assets\/fonts\.css"[^>]*>/i,()=>'<style>'+css+'</style>');}
-const assetPaths=[...new Set(source.match(/assets\/essegi-photo-\d+\.(?:jpg|png)/g)||[])];
-for(const path of assetPaths){const response=await fetch(new URL(path,location.href));if(!response.ok)throw new Error('Foto non disponibile: '+path);const b=await response.blob();const base64=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result));reader.onerror=()=>reject(reader.error);reader.readAsDataURL(b);});source=source.split(path).join(base64);}
-const blob=new Blob([source],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Essegi_Parrucchieria_Aggiornato_Staff.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);staffStatus.textContent='HTML aggiornato esportato.';}catch(err){staffStatus.textContent='Non è stato possibile esportare il file.';}});
- restoreStaffPhotos();
 
 })();
 </script>
