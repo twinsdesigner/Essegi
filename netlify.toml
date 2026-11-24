@@ -2,10 +2,12 @@
   publish = "."
 
 [build.processing]
-  skip_processing = false
+  skip_processing = true
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'sha256-tKuW33wSe4/Nt++AQTjsOMCPeOyUkMdDZLEzIIk9VGY='; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
